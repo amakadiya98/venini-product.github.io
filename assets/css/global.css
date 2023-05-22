@@ -1,0 +1,386 @@
+body{
+    font-family: 'Montserrat';
+}
+
+
+/* header part css start here */
+.header-part .header-conatiner{
+    padding: 0 50px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    /* filter: drop-shadow(7.071px 7.071px 3px rgba(0,0,0,0.15)); */
+    background-color: #ffffff;
+    box-shadow: -2px 7px 5px #00000026;
+}
+.header-part .header-conatiner .navbar{
+    width: 100%;
+}
+.header-part .navbar-brand{
+    margin-right: 0;
+}
+.header-part .navbar-brand .logo{
+    width: 170px
+}
+.header-part .page-name a{
+    font-size: 24px;
+    color: #4d4d4d;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header-part .navbar .navbar-toggler{
+    border: 0;
+    width: 50px;
+}
+.header-part .navbar-toggler.collapsed .close{
+    display: none;
+}
+.header-part .navbar-toggler .bar{
+    display: none;
+}
+.header-part .navbar-toggler.collapsed .bar{
+    display: block;
+}
+.header-part .navbar-collapse{
+    position: absolute;
+    right: -80px;
+    top: 78px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    width: 400px;
+    transform: translatex(400px);
+    transition: all 100ms;
+    /* filter: drop-shadow(7.071px 7.071px 3px rgba(0,0,0,0.15)); */
+    z-index: 1;
+}
+.header-part .navbar-collapse.collapsing{
+    height: auto;
+}
+.header-part .navbar-collapse.show{
+    transform: translatex(0px);
+}
+.header-part .navbar-nav .nav-item{
+    text-align: right;
+    padding-right: 60px;
+    padding-top: 50px;
+}
+.header-part .navbar-nav .nav-item:last-child{
+    padding-bottom: 80px;
+}
+.header-part .navbar-nav .nav-item a{
+    font-size: 20px;
+    color: #4d4d4d;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: right;
+}
+.header-part .custom-header-shadow{
+    position: absolute;
+    z-index: 1;
+    top: -11px;
+    width: 100%;
+    height: 12px;
+    left: -7px;
+    box-shadow: 7px 7px 5px #00000026;
+}
+.header-part .header-conatiner .navbar .navbar-brand{
+    flex: 1;    
+}
+.header-part .header-conatiner .navbar .page-name{
+    flex: 1;
+    text-align: center;
+}
+.header-part .header-conatiner .navbar .navbar-toggler{
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+}
+/* footer part */
+.footer-part{
+    margin: 30px 0 0px;
+}
+.footer-part .footer-logo{
+    width: 210px;
+}
+.footer-part .footer-content-row{
+    margin-bottom: 40px;
+}
+.footer-part .contact-part{
+    margin-top: 12px;
+}
+.footer-part .contact-part h6{
+    color: #333333;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer-part .contact-part .phone-label{
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 0;
+}
+.footer-part .contact-part .tag-ans{
+    color: #9F9999;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 2px;
+    margin-top: 8px;
+}
+.footer-part .contact-part .tag-ans:hover{
+    color: #000;
+}
+.footer-part .contact-part .tag-ans.without-hover:hover{
+    color: #9F9999;
+}
+.footer-part .contact-part .phone-section{
+    margin-bottom: 24px;
+}
+.footer-part .social-icon-part{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 12px;
+}
+.footer-part .social-icon-part .icon{
+    /* height: 30px; */
+    width: 30px;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+.footer-part .social-icon-part .icon:last-child{
+    margin-right: 0;
+}
+.footer-part .social-icon-part .icon.facbook-part{
+    background-image: url('../images/facebook.svg');
+    width: 20px;
+    height: 30px;
+}
+.footer-part .social-icon-part .icon.linkdin-part{
+    background-image: url('../images/linkdin.svg');
+    height: 30px;
+    width: 32px;
+}
+.footer-part .social-icon-part .icon.youtube-part{
+    background-image: url('../images/youtube.svg');
+    width: 35px;
+    height: 25px;
+}
+.footer-part .social-icon-part .icon.insta-part{
+    background-image: url('../images/instagram.svg');
+    height: 25px;
+}
+.footer-part .social-icon-part .icon.facbook-part:hover{
+    background-image: url('../images/facebook-hover.svg');
+}
+.footer-part .social-icon-part .icon.linkdin-part:hover{
+    background-image: url('../images/linkdin-hover.svg');
+}
+.footer-part .social-icon-part .icon.youtube-part:hover{
+    background-image: url('../images/youtube-hover.svg');
+}
+.footer-part .social-icon-part .icon.insta-part:hover{
+    background-image: url('../images/instagram-hover.svg');
+}
+.footer-part .coppyright-part{
+    border-top: 2px solid #E6E6E6 ;
+    padding: 20px 0;
+}
+.footer-part .coppy-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-part{
+    color: #9F9999;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+}
+.right-part{
+    display: flex;
+}
+.right-part .coppy-right-link{
+    color: #9F9999;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    text-decoration: none;
+    margin-right: 26px;
+    display: block;
+}
+.right-part .coppy-right-link:hover{
+    color: #000;
+}
+.right-part .coppy-right-link:last-child{
+    margin-right: 0;
+}
+
+
+/* common css start here */
+button:focus{
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+.button-part{
+  max-width: 280px;
+  padding: 10px 20px;
+  position: relative;
+  background: transparent linear-gradient(90deg, #F4CB29 11%, #E94A31 24%, #E04748 27%, #D2446F 32%, #C94188 37%, #C64191 39%, #00A9BC 79%, #03A85F 81%, #00A9BC 100%) 0% 0% no-repeat padding-box;
+  padding: 1px;
+  margin: auto;
+  transition: transform 1s;
+}
+.button-part .custom-button{
+    background: #fff;
+    color: #000;
+    width: 100%;
+    border: 0;
+    padding: 12px 20px;
+    text-transform: uppercase;
+}
+.button-part:hover{
+    transform: scale(1.05);
+}
+.button-part .custom-button.button-gray{
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+}
+
+.border-section{
+    height: 5px;
+    background: transparent linear-gradient(90deg, #DC2009 0%, #DC2508 4%, #DE3308 9%, #E24B07 14%, #E66C05 20%, #EC9204 25%, #E39004 27%, #CC8E07 30%, #A6890A 35%, #72820F 39%, #3D7C15 43%, #0F516D 60%, #3E3885 80%, #5C337E 100%) 0% 0% no-repeat padding-box;
+}
+.header-part .header-conatiner .contact-mobile-link{
+    display: none;
+}
+/* checkbox design */
+.check-box-part-common{
+    margin-top: -20px;
+}
+.check-box-part-common .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+.check-box-part-common .form-group label {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 28px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+  }
+  
+.check-box-part-common  .form-group label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #000;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: -4px;
+  }
+  
+.check-box-part-common .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    width: 5px;
+    height: 11px;
+    border: solid #000;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+  }
+  .foorm-link{
+    color: #4D4D4D;
+    font-family: 'Montserrat';
+  }
+
+@media screen and (max-width: 991px){
+    .footer-part .footer-logo{
+        width: 100%;
+    }
+    .coppyright-part .left-part{
+        font-size: 10px;
+    }
+    .coppyright-part .right-part .coppy-right-link{
+        font-size: 10px;
+    }
+}
+
+@media  screen and (max-width:680px) {
+    .header-part .navbar-nav .nav-item:last-child {
+        padding-bottom: 20px;
+    }
+    .header-part .navbar-collapse{
+        width: 350px;
+        right: -40px;
+    }
+    .header-part .header-conatiner{
+        padding: 0 22px 0 0px;
+    }
+    .header-part .page-name{
+        display: none;
+    }
+    .header-part .header-conatiner .contact-mobile-link{
+        display: block;
+    }
+    .button-part{
+        max-width: 230px;
+    }
+    .footer-part .logo-part{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-part .footer-logo{
+        width: 50%;
+    }
+    .footer-part .contact-part{
+        padding: 8% 10% 8%;
+    }
+    .footer-part .social-icon-part{
+        padding: 0 10%;
+    }
+    .coppyright-part .coppy-content{
+        padding: 0 10%;
+    }
+    .coppyright-part .coppy-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }.coppyright-part .coppy-content .left-part{
+        margin-bottom: 28px;
+    }
+    .coppyright-part .coppy-content .right-part{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .coppyright-part .coppy-content .right-part .coppy-right-link{
+        margin-bottom: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+

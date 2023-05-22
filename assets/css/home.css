@@ -1,0 +1,313 @@
+/* Banner part start here  */
+.banner-part{
+    background-image: url('../images/banner.png');
+    background-size: cover;
+    height: 460px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-part .overlay-part{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+.banner-part .heading{
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    text-transform: uppercase;
+}
+.banner-part .description{
+    font-size: 18px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Merriweather";
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 1.5rem;
+    letter-spacing: 1px;
+}
+.banner-part .banner-content{
+    position: relative;
+}
+/* Filter part start here */
+.filter-part-header{
+    padding: 2.5rem auto;
+}
+.filter-part-header .header-title{
+    display: flex;
+    justify-content: center;
+}
+.filter-part-header h4{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    position: relative;
+}
+.filter-part-header h4::before{
+    position: absolute;
+    content: "";
+    background-image: url('../images/dot-4.svg');
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    top: 2px;
+    left: -30px;
+}
+.filter-part-header .accordion-header-part{
+    display: flex;
+    justify-content: center;
+}
+.filter-part-header .accordion-item{
+    border: 0;
+}
+.filter-part-header .accordion-body{
+    padding: 0;
+}
+.filter-part-header .accordion-button{
+    color: #000000 !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    position: relative;
+    padding: 1rem 2rem;
+}
+.filter-part-header .accordion-button .nav-link-image{
+    margin-right: 12px;
+    margin-top: -3px;
+}
+.filter-part-header .accordion-button::after{
+    display: none;
+}
+.filter-part-header .check-box-part{
+    margin: 70px auto;
+    padding: 0 10% 40px 20%;
+    box-shadow: 7px 7px 5px #00000026;
+}
+.filter-part-header .check-box-part .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+.filter-part-header .check-box-part .form-group label {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 28px;
+    font-size: 16px;
+    font-family: "Merriweather";
+    font-style: italic;
+    font-weight: 100;
+  }
+  
+.filter-part-header .check-box-part  .form-group label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #000;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+.filter-part-header .check-box-part .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    width: 6px;
+    height: 14px;
+    border: solid #000;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+  }
+
+/* product part start here */
+.home-product-part{
+    text-decoration: none;
+    transition: all 2s;
+}
+
+.product-part{
+    margin-bottom: 80px;
+}
+.product-part .image-text-part .image-part img{
+    width: 92%;
+    transition: all 1s;
+    transform: scale(1);
+}
+.home-product-part:hover .image-text-part .image-part img{
+    transform: scale(1.05);
+    transition: all 1s;
+}
+.product-part .image-text-part .text-part{
+    margin-top: 24px;
+    margin-bottom: 70px;
+}
+.product-part .image-text-part .text-part .product-name{
+    font-size: 21px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #000000;
+    margin-bottom: 22px;
+}
+.product-part .image-text-part .text-part .product-des{
+    font-size: 16px;
+    font-weight: 300;
+    color: #9f9999;
+    font-family: "Merriweather";
+    font-style: italic;
+}
+.product-button-grid{
+    margin-top: 30px;
+}
+
+
+.contact-form{
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    padding: 100px 10% 120px 15%;
+}
+.contact-form-white{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.contact-form .title{
+    font-size: 28px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 400;
+    background: transparent linear-gradient(90deg, #F4CB29 33%, #E94A31 47%, #E04748 27%, #D2446F 32%, #C94188 37%, #C64191 39%, #00A9BC 79%, #03A85F 81%, #00A9BC 100%) 0% 0% no-repeat padding-box;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 2rem;
+}
+.contact-form .description{
+    text-align: center;
+    color: #9F9999;
+    font-size: 20px;
+    font-family: "Merriweather";
+    font-weight: 300;
+    font-style: italic;
+}
+.contact-form form{
+    margin: 40px 0;
+}
+.contact-form form .field{
+    margin-bottom: 24px;
+}
+.contact-form form .custum-input{
+    width: 90%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #000;
+    color: #4D4D4D;
+    height: 45px;
+}
+.contact-form form .custum-input::placeholder{
+    color: #4D4D4D;
+}
+.contact-form form .custum-input:focus{
+    outline: 0;
+}
+.contact-form form .custum-textareaInput{
+    height: 200px;
+    border: 1px solid black;
+    width: 95%;
+    background-color: transparent;
+}
+.contact-form form .custum-textareaInput:focus{
+    outline: 0;
+}
+.contact-form form label{
+    color: #4D4D4D;
+    font-family: 'Montserrat';
+    margin-bottom: 12px;
+    margin-top: 6px;
+}
+.contact-form form .full-width-input{
+    width: 95%;
+}
+.contact-form .button-part{
+    width: 100%;
+    margin: 0 5% 0 auto;
+}
+
+
+@media screen and (max-width: 991px) {
+    .filter-part-header .check-box-part{
+        margin: 50px auto 70px;
+        padding: 0 7% 40px 7%;
+        box-shadow: 7px 7px 5px #00000026;
+    }
+    .product-part .image-text-part{
+        padding: 0 3%;
+    }
+    .product-part .image-text-part .image-part img{
+        width: 100%;
+    }
+   
+}
+@media screen and (max-width:820px) {
+    .contact-form{
+        padding: 100px 8% 120px 8%;
+    }
+}
+@media  screen and (max-width:680px){
+    .banner-part .description {
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 80%;
+    }
+    .product-part .image-text-part .text-part{
+        margin-bottom: 40px;
+    }
+    .contact-form{
+        padding: 40px 3% 40px 3%;
+    }
+    .contact-form .title{
+        font-size: 20px;
+    }
+    .contact-form .description{
+        font-size: 16px;
+    }
+    .contact-form form{
+        margin: 50px 0 20px;
+    }
+    .contact-form form .custum-input {
+        width: 100%;
+    }
+    .contact-form .button-part{
+        margin: auto;
+        max-width: 200px;
+    }
+    .contact-form form .custum-textareaInput{
+        width: 100%;
+    }
+   
+}

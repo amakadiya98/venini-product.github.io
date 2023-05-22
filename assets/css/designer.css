@@ -1,0 +1,96 @@
+.designer-page .product-part .page-name{
+    font-size: 24px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2.5rem 0 3rem;
+}
+.bio-graphy .content-part{
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    margin-bottom: 5rem;
+}
+.section-title{
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    margin-top: -2rem;
+}
+.section-description{
+    font-size: 16px;
+    color: #9F9999;
+    font-family: "Merriweather";
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    line-height: 28px;
+}
+.banner-part{
+    background-image: url('../images/designer-banner.png');
+    background-size: cover;
+    height: 370px;
+    display: block;
+    
+}
+.designer-page .banner-part .banner-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 6%;
+}
+.designer-page .banner-part .banner-content h5{
+    text-align: left;
+}
+.designer-page .banner-part .banner-content .description{
+    text-align: left;
+    margin: 1.5rem 0 0;
+    max-width: 35%;
+    font-size: 16px;
+    line-height: 28px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .designer-page .banner-part{
+        background-position: center;
+    }
+    .designer-page .banner-part .banner-content .description{
+        max-width: 50%;
+    }
+    .bio-graphy .content-part{
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .designer-page .banner-part .banner-content .description {
+        max-width: 60%;
+    }
+}
+@media screen and (max-width:650px){
+    .designer-page .banner-part .banner-content h5{
+        text-align: center;
+    }
+    .designer-page .banner-part .banner-content .description{
+        max-width: 90%;
+        margin: 1rem auto;
+        text-align: center;
+        font-size: 14px;
+    }
+    .designer-page .product-part{
+        margin-bottom: 60px;
+    }
+    .designer-page .section-description{
+        font-size: 12px;
+        line-height: 26px;
+    }
+    .designer-page .bio-graphy .content-part{
+        margin-bottom: 3rem;
+    }
+}

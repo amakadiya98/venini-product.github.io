@@ -1,0 +1,388 @@
+.project-page .header-part{
+    position: absolute;
+    width: 100%;
+}
+.project-page .header-part .header-conatiner{
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.project-page .header-part .bar .bar-icon{
+    width: 36px;
+    background-color: #fff;
+    height: 2px;
+    margin-bottom: 10px;
+}
+.project-page .header-part .bar .bar-icon:last-child{
+    margin-bottom: 0;
+}
+.project-banner-part .image-part{
+    height: 100vh;
+    background-image: url('../images/product-banner.png');
+    background-size: cover;
+    background-position: bottom 0 left -320px;
+}
+.project-page .header-part .navbar-collapse{
+    height: 100vh;
+    top: -3px;
+    padding-top: 3rem;
+}
+.project-page .header-part .navbar-collapse .navbar-nav .navbar-toggler{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4rem;
+}
+.project-page .header-part .navbar-collapse .navbar-nav .navbar-toggler .bar{
+    display: block;
+   
+}
+.project-page .header-part .navbar-collapse .navbar-nav .navbar-toggler .bar .bar-icon.bar-icon-1{
+    transform: rotate(45deg);
+    background-color: rgba(0,0,0,.9);
+}
+.project-page .header-part .navbar-collapse .navbar-nav .navbar-toggler .bar .bar-icon.bar-icon-2{
+    transform: rotate(-44deg);
+    margin-top: -12px;
+    margin-left: 0px;
+    background-color: rgba(0,0,0,.9);
+}
+.project-page .navbar-toggler .close-white{
+
+}
+.project-banner-part .banner-grid{
+    align-items: center;
+}
+.common-content-part{
+    max-width: 50%;
+    margin: auto;
+}
+.common-content-part .introduction{
+    color: #4D4D4D ;
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+.common-content-part h6{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: 28px;
+    line-height: 38px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin: 1.5rem 0;
+}
+.common-content-part .description{
+    font-size: 16px;
+    color: #9F9999;
+    font-family: "Merriweather";
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+}
+.common-content-part .gredient-text{
+    font-size: 24px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 400;
+    background: transparent linear-gradient(90deg, #F4CB29 33%, #E94A31 47%, #E04748 27%, #D2446F 32%, #C94188 37%, #C64191 39%, #00A9BC 79%, #03A85F 81%, #00A9BC 100%) 0% 0% no-repeat padding-box;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+}
+.project-concept-part{
+    background-image: url('../images/product-concept-banner.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.project-concept-part::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 65%;
+}
+.project-concept-part .content-part{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin: auto;
+    max-width: 48%;
+}
+.project-concept-part .section-title{
+    color: #B3B3B3;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+}
+.project-concept-part .title{
+    font-size: 28px;
+    margin:1.5rem 0 2rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+.project-concept-part .description{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Merriweather";
+    font-style: italic;
+    font-weight: 300;
+    opacity: 0.8;
+}
+.storia-section .storia-banner-image-part{
+    width: 99.2%;
+    height: 100vh;
+    object-fit: cover;
+}
+.storia-section .storia-grid{
+    align-items: center;
+}
+.storia-image-grid{
+    padding: 0;
+    margin-left: -3px;
+    margin-top: -2px;
+}
+.storia-image-grid .storia-small-image{
+    width: 100%;
+}
+.storia-banner-image-part.riva-image{
+ margin-top: -2px;
+}
+.storia-section .gallery-part-scrollable{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.storia-section .gallery-part-scrollable .image-part{
+    width: 25%;
+    flex: 0 0 25%;
+    margin-left: -1px;
+}
+.storia-button-grid{
+    margin-top: 2rem;
+}
+.storia-section .owl-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px !important;
+}
+
+.storia-section .owl-prev,.owl-next{
+    background-color: #E6E6E6 !important;
+    border-radius: 50% !important;
+    width: 35px;
+    height: 35px;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.storia-section .owl-prev{
+    margin-right: 12px !important;
+}
+.storia-section .custum-prev{
+    background-image: url('../images/prev.png') !important;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat ;
+    background-size: 85%;
+    background-position: center;
+}
+.storia-section .custum-next{
+    background-image: url('../images/next.png') !important;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat ;
+    background-size: 85%;
+    background-position: center;
+} 
+.storia-section .slider-number-item-part{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.storia-section .slider-number-part{
+    position: absolute;
+    bottom: 10%;
+}
+.project-page .bar.bar-icon{
+    display: none !important;
+}
+.project-page .navbar-toggler.collapsed .close-white{
+    display: none !important;
+}
+/* .project-page  .navbar-toggler .close-white{
+    display: block !important;
+} */
+.project-page .close{
+    display: none;
+}
+.project-page .grediant-text-parent-clickabale{
+    text-decoration: none;
+}
+.owl-carousel.slider-owl-carousel .owl-item .image-part{
+    width: 101%;
+}
+.owl-carousel.slider-owl-carousel .owl-item img{
+    width: 100%;
+}
+.content-slider .owl-nav{
+    position: absolute;
+    bottom: 22%;
+    left: 23%;
+}
+@media screen and (max-width:1660px){
+    .content-slider .owl-nav{
+        left: 22%;
+    } 
+}
+@media screen and (max-width:1024px) {
+    .project-banner-part .image-part{
+        background-position: bottom 0 left -84%;
+    }
+    .project-banner-part .common-content-part{
+        max-width: 80%;
+    }
+    .project-concept-part .content-part {
+        text-align: center;
+        color: white;
+        position: relative;
+        margin: auto;
+        max-width: 65%;
+    }
+    .project-page .header-part .navbar-collapse{
+        right: -52px;
+    }
+    .content-slider .owl-nav {
+        left: 21%;
+    }
+}
+@media screen and (max-width:991px) {
+    .project-page .close{
+        display: block;
+    }
+    /* .project-page .navbar-toggler .close-white{
+        display: none !important;
+    } */
+    .header-part .navbar-toggler.collapsed .bar{
+        display: none !important;
+    }
+    .project-page .header-part .navbar-toggler.collapsed .bar.bar-icon{
+       display: block !important;
+    }
+    .project-page .header-part .bar{
+        display: block;
+    }
+    .project-page .header-part .header-conatiner {
+        background-color: #ffffff;
+        box-shadow: -2px 7px 5px #00000026;
+    }
+    .project-banner-part{
+        padding-top: 18%;
+    }
+    .project-banner-part .common-content-part{
+        padding-bottom: 3%;
+    }
+}
+@media screen and (max-width:768px) {
+    .common-content-part {
+        max-width: 80%;
+    }
+    .content-slider .owl-nav {
+        left: 19%;
+    }
+}
+@media screen and (max-width: 767px){
+    .project-banner-part {
+        padding-top: 30%;
+    }
+    .common-content-part h6{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .common-content-part .description{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .common-content-part .gredient-text {
+        font-size: 20px;
+    }
+    .project-concept-part .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .project-concept-part .content-part{
+        max-width: 85%;
+    }
+    .storia-section .slider-number-item-part{
+        height: auto;
+        padding: 15% 0 30%;
+    }
+    .storia-section .owl-item .common-content-part {
+        padding: 0%;
+    }
+    .storia-section .common-content-part {
+        max-width: 80%;
+    }
+    .storia-section .storia-banner-image-part{
+        height: auto;
+    }
+    .storia-section .common-content-part{
+        padding: 15% 0 30%;
+    }
+    .storia-image-grid{
+        padding:  inherit;
+    }
+    .storia-section .gallery-part-scrollable .image-part{
+        flex: 0 0 33%;
+    }
+    .content-slider .owl-nav {
+        left: 44%;
+        bottom: auto;
+        top: 24%;
+    }
+}
+@media screen and (max-width: 540px){
+    .content-slider .owl-nav {
+        left: 42%;
+        bottom: auto;
+        top: 26%;
+    }
+}
+@media screen and (max-width: 425px){
+    .content-slider .owl-nav {
+        left: 40%;
+        bottom: auto;
+        top: 29%;
+    }
+}
+@media screen and (max-width: 415px){
+    .content-slider .owl-nav {
+        left: 40%;
+        bottom: auto;
+        top: 31%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .project-banner-part .image-part {
+        background-position: bottom 0 left -93%;
+    }
+}
